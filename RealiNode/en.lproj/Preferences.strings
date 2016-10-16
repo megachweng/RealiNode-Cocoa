@@ -1,0 +1,120 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "028-jf-d0m"; */
+"028-jf-d0m.title" = "OtherViews";
+
+/* Class = "NSToolbarItem"; label = "Advanced"; ObjectID = "0E6-mo-X3z"; */
+"0E6-mo-X3z.label" = "Advanced";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Advanced"; ObjectID = "0E6-mo-X3z"; */
+"0E6-mo-X3z.paletteLabel" = "Advanced";
+
+/* Class = "NSTextFieldCell"; title = "Profile Name:"; ObjectID = "0Hf-KJ-R1N"; */
+"0Hf-KJ-R1N.title" = "Profile Name:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "0gZ-P4-BoN"; */
+"0gZ-P4-BoN.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "27O-vg-AdH"; */
+"27O-vg-AdH.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Reset All Adapters"; ObjectID = "4KR-yy-GHa"; */
+"4KR-yy-GHa.title" = "Reset All Adapters";
+
+/* Class = "NSTextFieldCell"; title = "An OS-X-Compatible 802.1x Client"; ObjectID = "61Z-os-vfQ"; */
+"61Z-os-vfQ.title" = "An OS-X-Compatible 802.1x Client";
+
+/* Class = "NSBox"; title = "Authentication Logs"; ObjectID = "6zK-HL-e1j"; */
+"6zK-HL-e1j.title" = "Authentication Logs";
+
+/* Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "7Bu-JX-mPE"; */
+"7Bu-JX-mPE.title" = "User Name:";
+
+/* Class = "NSTextFieldCell"; title = "H3CClient v1.0.0 (Build 0x1)"; ObjectID = "8ck-ma-QB2"; */
+"8ck-ma-QB2.title" = "H3CClient v1.0.0 (Build 0x1)";
+
+/* Class = "NSTextFieldCell"; title = "N/A"; ObjectID = "ANN-Nf-jb2"; */
+"ANN-Nf-jb2.title" = "N/A";
+
+/* Class = "NSTextFieldCell"; title = "No"; ObjectID = "FUy-zd-I2z"; */
+"FUy-zd-I2z.title" = "No";
+
+/* Class = "NSToolbarItem"; label = "General"; ObjectID = "JcH-ib-MR9"; */
+"JcH-ib-MR9.label" = "General";
+
+/* Class = "NSToolbarItem"; paletteLabel = "General"; ObjectID = "JcH-ib-MR9"; */
+"JcH-ib-MR9.paletteLabel" = "General";
+
+/* Class = "NSTextFieldCell"; title = "Username:"; ObjectID = "K6w-wT-U91"; */
+"K6w-wT-U91.title" = "Username:";
+
+/* Class = "NSTextFieldCell"; title = "Interface:"; ObjectID = "KDW-8E-NXY"; */
+"KDW-8E-NXY.title" = "Interface:";
+
+/* Class = "NSButtonCell"; title = "Refresh IP Address"; ObjectID = "Kvx-cH-f4m"; */
+"Kvx-cH-f4m.title" = "Refresh IP Address";
+
+/* Class = "NSTextFieldCell"; title = "Traffic Recv/Sent:"; ObjectID = "LXE-Au-iEk"; */
+"LXE-Au-iEk.title" = "Traffic Recv/Sent:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Profiles"; ObjectID = "QBZ-FI-ze3"; */
+"QBZ-FI-ze3.headerCell.title" = "Profiles";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Preferences";
+
+/* Class = "NSButtonCell"; title = "Reconnect when dropped"; ObjectID = "ReO-Td-mxO"; */
+"ReO-Td-mxO.title" = "Reconnect when dropped";
+
+/* Class = "NSTextFieldCell"; title = "0 B / 0 B"; ObjectID = "SW5-iW-bl9"; */
+"SW5-iW-bl9.title" = "0 B / 0 B";
+
+/* Class = "NSButtonCell"; title = "Make default"; ObjectID = "TW2-3s-ktN"; */
+"TW2-3s-ktN.title" = "Make default";
+
+/* Class = "NSTextFieldCell"; title = "Connected: "; ObjectID = "bGt-ML-ZY1"; */
+"bGt-ML-ZY1.title" = "Connected: ";
+
+/* Class = "NSButtonCell"; title = "Visit Official Site"; ObjectID = "c8d-EH-p5o"; */
+"c8d-EH-p5o.title" = "Visit Official Site";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "eJR-SF-vmg"; */
+"eJR-SF-vmg.title" = "Create";
+
+/* Class = "NSTextFieldCell"; title = "0 d 0 h 0 m 0 s"; ObjectID = "f02-05-kwT"; */
+"f02-05-kwT.title" = "0 d 0 h 0 m 0 s";
+
+/* Class = "NSTextFieldCell"; title = "Duration"; ObjectID = "h0Q-fc-JVQ"; */
+"h0Q-fc-JVQ.title" = "Duration";
+
+/* Class = "NSTextFieldCell"; title = "IPv4 Address:"; ObjectID = "iVD-mu-h9f"; */
+"iVD-mu-h9f.title" = "IPv4 Address:";
+
+/* Class = "NSBox"; title = "Connection Status:"; ObjectID = "nlo-rx-Ph1"; */
+"nlo-rx-Ph1.title" = "Connection Status:";
+
+/* Class = "NSButtonCell"; title = "Automatically connect at startup"; ObjectID = "oIe-jx-RoW"; */
+"oIe-jx-RoW.title" = "Automatically connect at startup";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "pLM-FW-bPg"; */
+"pLM-FW-bPg.title" = "Launch at login";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "qrQ-dl-ytn"; */
+"qrQ-dl-ytn.title" = "Window";
+
+/* Class = "NSToolbarItem"; label = "Accounts"; ObjectID = "sEr-pe-uKz"; */
+"sEr-pe-uKz.label" = "Accounts";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Accounts"; ObjectID = "sEr-pe-uKz"; */
+"sEr-pe-uKz.paletteLabel" = "Accounts";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "u0n-ji-ZGF"; */
+"u0n-ji-ZGF.title" = "Password:";
+
+/* Class = "NSTextFieldCell"; title = "0.0.0.0"; ObjectID = "vJD-6M-x2A"; */
+"vJD-6M-x2A.title" = "0.0.0.0";
+
+/* Class = "NSToolbarItem"; label = "About"; ObjectID = "xot-7e-pFz"; */
+"xot-7e-pFz.label" = "About";
+
+/* Class = "NSToolbarItem"; paletteLabel = "About"; ObjectID = "xot-7e-pFz"; */
+"xot-7e-pFz.paletteLabel" = "About";

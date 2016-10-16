@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  RealiNode
+
+  Created by MegaChweng on 2016/10/16.
+*/
+
+"Connect" = "连接";
+"Disconnect" = "断开连接";
+"Status1" = "用户名: %@";
+"Status2" = "状态: 正在下线...";
+"using" = "指定";
+
+"success" = "在线认证成功！";
+"noUser" = "连接失败！用户名不存在！";
+"incorrectPwd" = "连接失败！密码错误！";
+"upperLimit"="连接失败！在线用户数量限制！";
+
+"noprofile" = "请先新建连接！";
+"interupt" = "连接中断！";
+"interuptAndReconnect" = "连接中断，正在尝试重新连接！";

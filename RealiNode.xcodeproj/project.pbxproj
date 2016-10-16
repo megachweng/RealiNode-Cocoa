@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4135377119B67F3F00954B88 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4135377019B67F3F00954B88 /* LaunchAtLoginController.m */; };
+		41CBC08619B67AAC000471E2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CBC08519B67AAC000471E2 /* CoreServices.framework */; };
+		41CBC08719B67CA5000471E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CCC84C1940FC5C008F3407 /* Foundation.framework */; };
+		41CBC08919B67CF1000471E2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CBC08819B67CF1000471E2 /* ApplicationServices.framework */; };
+		C9049F1419412E8400746681 /* libpcap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9049F1319412E8400746681 /* libpcap.dylib */; };
+		C98E47E2194464C3004A70BE /* H3CClientProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E47E1194464C3004A70BE /* H3CClientProfileViewController.m */; };
+		C9A4651619439ACC00B63E16 /* org.wireshark.ChmodBPF.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9A4651519439ACC00B63E16 /* org.wireshark.ChmodBPF.plist */; };
+		C9BFB7C01941C1CF00B97A78 /* H3CClientConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BFB7BF1941C1CF00B97A78 /* H3CClientConnector.m */; };
+		C9CCC8481940FC5C008F3407 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CCC8471940FC5C008F3407 /* Cocoa.framework */; };
+		C9CCC8521940FC5C008F3407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CCC8501940FC5C008F3407 /* InfoPlist.strings */; };
+		C9CCC8541940FC5C008F3407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC8531940FC5C008F3407 /* main.m */; };
+		C9CCC8581940FC5C008F3407 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9CCC8561940FC5C008F3407 /* Credits.rtf */; };
+		C9CCC85B1940FC5C008F3407 /* H3CClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC85A1940FC5C008F3407 /* H3CClientAppDelegate.m */; };
+		C9CCC88519410A13008F3407 /* H3CClientBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC88419410A13008F3407 /* H3CClientBackend.m */; };
+		C9CCC889194114C2008F3407 /* StatusMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC887194114C1008F3407 /* StatusMenuViewController.m */; };
+		D22DB9C11DB28C6F00C13587 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D22DB9C01DB28C6F00C13587 /* icon.iconset */; };
+		D26475541DB2ACBC00FC46C9 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26475561DB2ACBC00FC46C9 /* StatusMenu.xib */; };
+		D285611A1DB2AC3300AA4B1A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285611C1DB2AC3300AA4B1A /* Preferences.xib */; };
+		D2B1132B1DB2AD09005E14B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B1132D1DB2AD09005E14B9 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C928B56C19437FB900C74B90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4135376F19B67F3F00954B88 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		4135377019B67F3F00954B88 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		41CBC08519B67AAC000471E2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		41CBC08819B67CF1000471E2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C9049F1319412E8400746681 /* libpcap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcap.dylib; path = usr/lib/libpcap.dylib; sourceTree = SDKROOT; };
+		C98E47E0194464C3004A70BE /* H3CClientProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CClientProfileViewController.h; sourceTree = "<group>"; };
+		C98E47E1194464C3004A70BE /* H3CClientProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CClientProfileViewController.m; sourceTree = "<group>"; };
+		C9A4651519439ACC00B63E16 /* org.wireshark.ChmodBPF.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = org.wireshark.ChmodBPF.plist; sourceTree = "<group>"; };
+		C9BFB7BE1941C1CF00B97A78 /* H3CClientConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CClientConnector.h; sourceTree = "<group>"; };
+		C9BFB7BF1941C1CF00B97A78 /* H3CClientConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CClientConnector.m; sourceTree = "<group>"; };
+		C9BFB7C11941D5EA00B97A78 /* H3CClientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H3CClientProtocol.h; sourceTree = "<group>"; };
+		C9CCC8441940FC5C008F3407 /* RealiNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealiNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CCC8471940FC5C008F3407 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9CCC84A1940FC5C008F3407 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9CCC84B1940FC5C008F3407 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9CCC84C1940FC5C008F3407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9CCC84F1940FC5C008F3407 /* RealiNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealiNode-Info.plist"; sourceTree = "<group>"; };
+		C9CCC8511940FC5C008F3407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9CCC8531940FC5C008F3407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9CCC8551940FC5C008F3407 /* RealiNode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealiNode-Prefix.pch"; sourceTree = "<group>"; };
+		C9CCC8571940FC5C008F3407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9CCC8591940FC5C008F3407 /* H3CClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H3CClientAppDelegate.h; sourceTree = "<group>"; };
+		C9CCC85A1940FC5C008F3407 /* H3CClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H3CClientAppDelegate.m; sourceTree = "<group>"; };
+		C9CCC88319410A13008F3407 /* H3CClientBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CClientBackend.h; sourceTree = "<group>"; };
+		C9CCC88419410A13008F3407 /* H3CClientBackend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CClientBackend.m; sourceTree = "<group>"; };
+		C9CCC886194114C1008F3407 /* StatusMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMenuViewController.h; sourceTree = "<group>"; };
+		C9CCC887194114C1008F3407 /* StatusMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMenuViewController.m; sourceTree = "<group>"; };
+		D22DB9C01DB28C6F00C13587 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		D26475551DB2ACBC00FC46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StatusMenu.xib; sourceTree = "<group>"; };
+		D26475591DB2ACC300FC46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/StatusMenu.xib"; sourceTree = "<group>"; };
+		D28561181DB2AC2200AA4B1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D28561191DB2AC2200AA4B1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		D285611B1DB2AC3300AA4B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
+		D285611F1DB2AC4500AA4B1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/Preferences.xib"; sourceTree = "<group>"; };
+		D2B1132C1DB2AD09005E14B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D2B1132E1DB2AD0A005E14B9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CCC8411940FC5C008F3407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CBC08919B67CF1000471E2 /* ApplicationServices.framework in Frameworks */,
+				41CBC08719B67CA5000471E2 /* Foundation.framework in Frameworks */,
+				41CBC08619B67AAC000471E2 /* CoreServices.framework in Frameworks */,
+				C9049F1419412E8400746681 /* libpcap.dylib in Frameworks */,
+				C9CCC8481940FC5C008F3407 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CCC83B1940FC5C008F3407 = {
+			isa = PBXGroup;
+			children = (
+				C9CCC84D1940FC5C008F3407 /* RealiNode */,
+				C9CCC8461940FC5C008F3407 /* Frameworks */,
+				C9CCC8451940FC5C008F3407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CCC8451940FC5C008F3407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCC8441940FC5C008F3407 /* RealiNode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CCC8461940FC5C008F3407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CBC08819B67CF1000471E2 /* ApplicationServices.framework */,
+				41CBC08519B67AAC000471E2 /* CoreServices.framework */,
+				C9049F1319412E8400746681 /* libpcap.dylib */,
+				C9CCC8471940FC5C008F3407 /* Cocoa.framework */,
+				C9CCC8491940FC5C008F3407 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CCC8491940FC5C008F3407 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCC84A1940FC5C008F3407 /* AppKit.framework */,
+				C9CCC84B1940FC5C008F3407 /* CoreData.framework */,
+				C9CCC84C1940FC5C008F3407 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9CCC84D1940FC5C008F3407 /* RealiNode */ = {
+			isa = PBXGroup;
+			children = (
+				4135376F19B67F3F00954B88 /* LaunchAtLoginController.h */,
+				4135377019B67F3F00954B88 /* LaunchAtLoginController.m */,
+				D285611C1DB2AC3300AA4B1A /* Preferences.xib */,
+				C9CCC8591940FC5C008F3407 /* H3CClientAppDelegate.h */,
+				C9CCC85A1940FC5C008F3407 /* H3CClientAppDelegate.m */,
+				C9CCC84E1940FC5C008F3407 /* Supporting Files */,
+				C9CCC88319410A13008F3407 /* H3CClientBackend.h */,
+				C9CCC88419410A13008F3407 /* H3CClientBackend.m */,
+				C9CCC886194114C1008F3407 /* StatusMenuViewController.h */,
+				C9CCC887194114C1008F3407 /* StatusMenuViewController.m */,
+				D26475561DB2ACBC00FC46C9 /* StatusMenu.xib */,
+				C9BFB7BE1941C1CF00B97A78 /* H3CClientConnector.h */,
+				C9BFB7BF1941C1CF00B97A78 /* H3CClientConnector.m */,
+				C9BFB7C11941D5EA00B97A78 /* H3CClientProtocol.h */,
+				C98E47E0194464C3004A70BE /* H3CClientProfileViewController.h */,
+				C98E47E1194464C3004A70BE /* H3CClientProfileViewController.m */,
+			);
+			path = RealiNode;
+			sourceTree = "<group>";
+		};
+		C9CCC84E1940FC5C008F3407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B1132D1DB2AD09005E14B9 /* Localizable.strings */,
+				D22DB9C01DB28C6F00C13587 /* icon.iconset */,
+				C9A4651519439ACC00B63E16 /* org.wireshark.ChmodBPF.plist */,
+				C9CCC84F1940FC5C008F3407 /* RealiNode-Info.plist */,
+				C9CCC8501940FC5C008F3407 /* InfoPlist.strings */,
+				C9CCC8531940FC5C008F3407 /* main.m */,
+				C9CCC8551940FC5C008F3407 /* RealiNode-Prefix.pch */,
+				C9CCC8561940FC5C008F3407 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CCC8431940FC5C008F3407 /* RealiNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CCC8751940FC5C008F3407 /* Build configuration list for PBXNativeTarget "RealiNode" */;
+			buildPhases = (
+				C9CCC8401940FC5C008F3407 /* Sources */,
+				C9CCC8411940FC5C008F3407 /* Frameworks */,
+				C9CCC8421940FC5C008F3407 /* Resources */,
+				C928B56C19437FB900C74B90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealiNode;
+			productName = "OS-X-H3CClient";
+			productReference = C9CCC8441940FC5C008F3407 /* RealiNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CCC83C1940FC5C008F3407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RealiNode;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sanya University";
+			};
+			buildConfigurationList = C9CCC83F1940FC5C008F3407 /* Build configuration list for PBXProject "RealiNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = C9CCC83B1940FC5C008F3407;
+			productRefGroup = C9CCC8451940FC5C008F3407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CCC8431940FC5C008F3407 /* RealiNode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CCC8421940FC5C008F3407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CCC8521940FC5C008F3407 /* InfoPlist.strings in Resources */,
+				C9A4651619439ACC00B63E16 /* org.wireshark.ChmodBPF.plist in Resources */,
+				D22DB9C11DB28C6F00C13587 /* icon.iconset in Resources */,
+				D2B1132B1DB2AD09005E14B9 /* Localizable.strings in Resources */,
+				C9CCC8581940FC5C008F3407 /* Credits.rtf in Resources */,
+				D26475541DB2ACBC00FC46C9 /* StatusMenu.xib in Resources */,
+				D285611A1DB2AC3300AA4B1A /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CCC8401940FC5C008F3407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BFB7C01941C1CF00B97A78 /* H3CClientConnector.m in Sources */,
+				C9CCC85B1940FC5C008F3407 /* H3CClientAppDelegate.m in Sources */,
+				C9CCC889194114C2008F3407 /* StatusMenuViewController.m in Sources */,
+				C9CCC8541940FC5C008F3407 /* main.m in Sources */,
+				C9CCC88519410A13008F3407 /* H3CClientBackend.m in Sources */,
+				4135377119B67F3F00954B88 /* LaunchAtLoginController.m in Sources */,
+				C98E47E2194464C3004A70BE /* H3CClientProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9CCC8501940FC5C008F3407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CCC8511940FC5C008F3407 /* en */,
+				D28561181DB2AC2200AA4B1A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9CCC8561940FC5C008F3407 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CCC8571940FC5C008F3407 /* en */,
+				D28561191DB2AC2200AA4B1A /* zh-Hans */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D26475561DB2ACBC00FC46C9 /* StatusMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26475551DB2ACBC00FC46C9 /* Base */,
+				D26475591DB2ACC300FC46C9 /* zh-Hans */,
+			);
+			name = StatusMenu.xib;
+			sourceTree = "<group>";
+		};
+		D285611C1DB2AC3300AA4B1A /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D285611B1DB2AC3300AA4B1A /* Base */,
+				D285611F1DB2AC4500AA4B1A /* zh-Hans */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		D2B1132D1DB2AD09005E14B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B1132C1DB2AD09005E14B9 /* Base */,
+				D2B1132E1DB2AD0A005E14B9 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CCC8731940FC5C008F3407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9CCC8741940FC5C008F3407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9CCC8761940FC5C008F3407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/OS-X-H3CClient",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealiNode/RealiNode-Prefix.pch";
+				INFOPLIST_FILE = "RealiNode/RealiNode-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MegaChweng.RealiNode;
+				PRODUCT_NAME = RealiNode;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9CCC8771940FC5C008F3407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/OS-X-H3CClient",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealiNode/RealiNode-Prefix.pch";
+				INFOPLIST_FILE = "RealiNode/RealiNode-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MegaChweng.RealiNode;
+				PRODUCT_NAME = RealiNode;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CCC83F1940FC5C008F3407 /* Build configuration list for PBXProject "RealiNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CCC8731940FC5C008F3407 /* Debug */,
+				C9CCC8741940FC5C008F3407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CCC8751940FC5C008F3407 /* Build configuration list for PBXNativeTarget "RealiNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CCC8761940FC5C008F3407 /* Debug */,
+				C9CCC8771940FC5C008F3407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CCC83C1940FC5C008F3407 /* Project object */;
+}
