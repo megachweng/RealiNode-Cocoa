@@ -23,6 +23,7 @@
 		C9CCC88519410A13008F3407 /* H3CClientBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC88419410A13008F3407 /* H3CClientBackend.m */; };
 		C9CCC889194114C2008F3407 /* StatusMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CCC887194114C1008F3407 /* StatusMenuViewController.m */; };
 		D22DB9C11DB28C6F00C13587 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D22DB9C01DB28C6F00C13587 /* icon.iconset */; };
+		D2397A381DB39955006D7609 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D2397A371DB39955006D7609 /* README.md */; };
 		D26475541DB2ACBC00FC46C9 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26475561DB2ACBC00FC46C9 /* StatusMenu.xib */; };
 		D285611A1DB2AC3300AA4B1A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285611C1DB2AC3300AA4B1A /* Preferences.xib */; };
 		D2B1132B1DB2AD09005E14B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B1132D1DB2AD09005E14B9 /* Localizable.strings */; };
@@ -69,6 +70,7 @@
 		C9CCC886194114C1008F3407 /* StatusMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMenuViewController.h; sourceTree = "<group>"; };
 		C9CCC887194114C1008F3407 /* StatusMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMenuViewController.m; sourceTree = "<group>"; };
 		D22DB9C01DB28C6F00C13587 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		D2397A371DB39955006D7609 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D26475551DB2ACBC00FC46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StatusMenu.xib; sourceTree = "<group>"; };
 		D26475591DB2ACC300FC46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/StatusMenu.xib"; sourceTree = "<group>"; };
 		D28561181DB2AC2200AA4B1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		C9CCC83B1940FC5C008F3407 = {
 			isa = PBXGroup;
 			children = (
+				D2397A371DB39955006D7609 /* README.md */,
 				C9CCC84D1940FC5C008F3407 /* RealiNode */,
 				C9CCC8461940FC5C008F3407 /* Frameworks */,
 				C9CCC8451940FC5C008F3407 /* Products */,
@@ -250,6 +253,7 @@
 				C9CCC8541940FC5C008F3407 /* main.m in Sources */,
 				C9CCC88519410A13008F3407 /* H3CClientBackend.m in Sources */,
 				4135377119B67F3F00954B88 /* LaunchAtLoginController.m in Sources */,
+				D2397A381DB39955006D7609 /* README.md in Sources */,
 				C98E47E2194464C3004A70BE /* H3CClientProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
