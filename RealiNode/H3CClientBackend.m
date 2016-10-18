@@ -212,19 +212,29 @@ NSDictionary *_adapterList;
             
                 if ([message hasPrefix:@"63018"]) {
                     [self sendUserNotificationWithDescription:NSLocalizedString(@"noUser", "Faild! User Does not exist!")];
+                    self.manualDisconnect = YES; // we do not reconnect for no exsiting username.
+                    
                 }else if ([message hasPrefix:@"63032"]){
                     [self sendUserNotificationWithDescription:NSLocalizedString(@"incorrectPwd", "Falid! Incorrect Password!")];
+                    self.manualDisconnect = YES; // we do not reconnect for wrong username/password.
+                    
                 }else if ([message hasPrefix:@"63022"]){
                     [self sendUserNotificationWithDescription:NSLocalizedString(@"upperLimit", "Falid! The online number reaches the upper-limit!")];
+                    self.manualDisconnect = YES; // we do not reconnect for reaching the upper limit
+                    
+                }else if ([message hasPrefix:@"ADIUS Server No Response"]){
+                    [self sendUserNotificationWithDescription:NSLocalizedString(@"ServerNoResponse", "Falid! Server No response try again later!")];
+                    self.manualDisconnect = YES; // we do not reconnect for reaching the upper limit
+                
                 }else{
                     [self sendUserNotificationWithDescription:message];
                 }
             
                 self.connectionState = Disconnecting;
                 
-                if(((FailureFrame *)frame)->errcode != 8 && message.length >= 5) {
-                    self.manualDisconnect = YES; // we do not reconnect for wrong username/password.
-                }
+//                if(((FailureFrame *)frame)->errcode != 8 && message.length >= 5) {
+//                    self.manualDisconnect = YES; // we do not reconnect for wrong username/password.
+//                }
                 break;
             case EAP_OTHER:
                 NSLog(@"received EAP_OTHER");

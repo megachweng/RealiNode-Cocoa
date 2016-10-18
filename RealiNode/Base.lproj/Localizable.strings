@@ -13,7 +13,8 @@
 "success" = "Authenticated successfully.";
 "noUser" = "Authenticate Failure! Beacause User Doesn't exist!";
 "incorrectPwd" = "Authenticate Failure! Beacause Password is incorrect";
-"upperLimit"="Falid! The online number reaches the upper-limit!";
+"upperLimit"="Faild! The online number reaches the upper-limit!";
+"ServerNoResponse"="Faild! Sever No response";
 "noprofile" = "Create Profile first!";
 "interupt" = "Connection Interrupted！";
 "interuptAndReconnect" = "Connection Interrupted!Trying to reconnect!";
