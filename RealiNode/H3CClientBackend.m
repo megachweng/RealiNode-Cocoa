@@ -50,7 +50,7 @@ NSDictionary *_adapterList;
 
 - (void)connect
 {
-    [self reloadBPF];
+    
     long int selected = [self.globalConfiguration integerForKey:@"default"];
     if(selected == -1) {
         [self sendUserNotificationWithDescription:@"No default profile set."];
@@ -61,7 +61,7 @@ NSDictionary *_adapterList;
 
 - (void)connectUsingProfile:(NSInteger)selected
 {
-    [self reloadBPF];
+    
     self.connectionState = Connecting;
     dispatch_async(dispatch_get_global_queue(0, 0), ^(){
         NSLog(@"connecting...");
@@ -318,26 +318,21 @@ NSDictionary *_adapterList;
 }
 
 -(void)reloadBPF{
+
+    AuthorizationRef authorizationRef;
     NSString *prefix = [[NSBundle mainBundle] resourcePath];
     NSString *combined = [NSString stringWithFormat:@"%@%@", prefix, @"/Script.sh"];
+    FILE *pipe = NULL;
+    OSStatus err = AuthorizationCreate(nil,
+                                       kAuthorizationEmptyEnvironment,
+                                       kAuthorizationFlagDefaults,
+                                       &authorizationRef);
     
-    [[NSProcessInfo processInfo] processIdentifier];
-    NSPipe *pipe = [NSPipe pipe];
-    NSFileHandle *file = pipe.fileHandleForReading;
+    char *command= "/bin/sh";
+    char *args[] = {[combined UTF8String], nil};
     
-    NSTask *task = [[NSTask alloc] init];
-    task.launchPath = @"/bin/sh";
-    task.arguments =@[combined];
-    task.standardOutput = pipe;
-    
-    [task launch];
-    
-    NSData *data = [file readDataToEndOfFile];
-    [file closeFile];
-    
-    NSString *grepOutput = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
-    NSLog (@"\n%@", grepOutput);
-    
+    err = AuthorizationExecuteWithPrivileges(authorizationRef,command,kAuthorizationFlagDefaults,args,&pipe);
+
 }
 
 @end
