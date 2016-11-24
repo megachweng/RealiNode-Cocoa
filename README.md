@@ -1,5 +1,6 @@
 # RealiNode-Cocoa
-A H3C iNode compatible client for OS X 10.9+ fork from [OS-X-H3CClient](https://github.com/w1ndy/OS-X-H3CClient)
+A H3C iNode compatible client for OS X 10.9+ 
+Works Perfectly @三亚学院
 ### Looking for a CommandLine Version?Please Check Here [RealiNode-Cli](https://github.com/megachweng/RealNode)
 # Features
 * Multi profile
