@@ -50,6 +50,7 @@ NSDictionary *_adapterList;
 
 - (void)connect
 {
+    [self reloadBPF];
     long int selected = [self.globalConfiguration integerForKey:@"default"];
     if(selected == -1) {
         [self sendUserNotificationWithDescription:@"No default profile set."];
@@ -60,6 +61,7 @@ NSDictionary *_adapterList;
 
 - (void)connectUsingProfile:(NSInteger)selected
 {
+    [self reloadBPF];
     self.connectionState = Connecting;
     dispatch_async(dispatch_get_global_queue(0, 0), ^(){
         NSLog(@"connecting...");
@@ -313,6 +315,29 @@ NSDictionary *_adapterList;
         dict[@"output"] = [NSNumber numberWithUnsignedInteger:output];
         return dict;
     }
+}
+
+-(void)reloadBPF{
+    NSString *prefix = [[NSBundle mainBundle] resourcePath];
+    NSString *combined = [NSString stringWithFormat:@"%@%@", prefix, @"/Script.sh"];
+    
+    [[NSProcessInfo processInfo] processIdentifier];
+    NSPipe *pipe = [NSPipe pipe];
+    NSFileHandle *file = pipe.fileHandleForReading;
+    
+    NSTask *task = [[NSTask alloc] init];
+    task.launchPath = @"/bin/sh";
+    task.arguments =@[combined];
+    task.standardOutput = pipe;
+    
+    [task launch];
+    
+    NSData *data = [file readDataToEndOfFile];
+    [file closeFile];
+    
+    NSString *grepOutput = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+    NSLog (@"\n%@", grepOutput);
+    
 }
 
 @end

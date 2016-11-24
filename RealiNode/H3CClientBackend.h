@@ -39,6 +39,7 @@ enum ConnectionState
 - (NSString*)getIPAddress;
 - (void)updateIP;
 - (NSDictionary*)getTrafficStatSinceConnected;
+- (void)reloadBPF;
 
 + (H3CClientBackend*)defaultBackend;
 
